@@ -341,3 +341,9 @@ a:hover {
     height: 50px;
     fill: #fff;
 }
+
+#corner-img {
+    position: absolute;
+    right: 2rem;
+    bottom: 0.5rem;
+}
