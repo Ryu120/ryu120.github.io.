@@ -259,7 +259,7 @@ section .title::after{
 }
 
 /* skills section styling */
-.skills, .teams{
+.skills, .teams, #contact, #about{
     color:#fff;
     background: #111;
 }
@@ -580,14 +580,14 @@ footer span a:hover{
     transition: transform .05s;
 }
 .fa-telegram:hover{
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 .fa-youtube {
     color: #ff0000;
     transition: transform .05s;
 }
 .fa-youtube:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 .fa-instagram{
     color: transparent;
@@ -598,7 +598,7 @@ footer span a:hover{
     transition: transform .05s;
 }
 .fa-instagram:hover{
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 .fa-github{
     background: rgb(255, 255, 255);
@@ -608,7 +608,7 @@ footer span a:hover{
     transition: transform .05s;
 }
 .fa-github:hover{
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 /* responsive media query start */
 @media (max-width: 1104px) {
