@@ -537,6 +537,11 @@ section .title::after{
   color: rgb(20, 197, 220);
   background: none;
 }
+.right .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.0em;
+}
 .contactico{
     color: blue;
     align-items: center;
@@ -569,33 +574,41 @@ footer span a:hover{
 }
 .fa-telegram{
     background: rgb(242, 249, 250);
-    color: rgb(67, 219, 230);
+    color: rgb(34, 158, 217);
     border: rgb(67, 219, 230);
     border-radius: 50px;
+    transition: transform .05s;
 }
 .fa-telegram:hover{
-    box-shadow: 0 0 8px 0 #19acb1;
+    transform: scale(1.15);
 }
-.fa-twitter{
-    background: rgb(58, 218, 240);
-    color: rgb(234, 242, 243);
-    border: rgb(67, 219, 230);
-    border-radius: 50px;
-    padding: 0.1em 0.1em;
-    margin-left: 0.5em;
+.fa-youtube {
+    color: #ff0000;
+    transition: transform .05s;
 }
-.fa-twitter:hover{
-    box-shadow: 0 0 8px 0 #0da1a7;
+.fa-youtube:hover {
+    transform: scale(1.15);
+}
+.fa-instagram{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: transform .05s;
+}
+.fa-instagram:hover{
+    transform: scale(1.15);
 }
 .fa-github{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: rgb(255, 255, 255);
     border-radius: 50px;
-    margin-left: 0.5em;;
+    transition: transform .05s;
 }
 .fa-github:hover{
-    box-shadow: 0 0 8px 0 #1a1b1b;
+    transform: scale(1.15);
 }
 /* responsive media query start */
 @media (max-width: 1104px) {
