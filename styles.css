@@ -25,13 +25,13 @@ main {
 .button-group {
     padding: 1rem;
     margin: auto;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid rgb(207, 59, 236);
 }
 .button-group:first-of-type {
-  border-top: 1px solid #bbb;
+  border-top: 1px solid rgb(219, 102, 219);
 }
 .button-group:nth-of-type(2n) {
-  background-color: #f7f7f7;
+  background-color: #87d7fc;
 }
 .button-input label {
     display: block;
@@ -89,7 +89,7 @@ main {
   transform: translate(-50%,-50%);
 }
 .delete-rose-button {
-  color: red;
+  color: rgb(0, 0, 0);
   margin-left: 1rem;
   padding: 0;
   background-color: white;
@@ -111,7 +111,7 @@ main {
 }
 #button-form-actions button {
   margin-left: 1rem;
-  background: #d56503;
+  background: #e22121;
   padding: 0.25rem 1rem;
   border-radius: 0.5rem;
   color: #fff;
@@ -131,9 +131,9 @@ main {
   white-space: pre;
 }
 .buttoncode-success {
-  border: 1px solid green;
-  background: lightgreen;
-  color: green;
+  border: 1px solid rgb(1, 5, 7);
+  background: rgb(71, 190, 236);
+  color: rgb(37, 40, 224);
   padding: 1em;
 }
 .buttoncode-error {
@@ -250,7 +250,7 @@ main {
     z-index: 5;
     text-transform: uppercase;
     text-align: center;
-    background: #d56503;
+    background: #e41919;
     transform: translate3d(0, 0, 0);
   }
   .button-type label .button-type-switch {
