@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(0, 0, 0);
+    background: rgb(20, 197, 220);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -199,8 +199,8 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    background: rgb(20, 197, 220);
+    color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -210,7 +210,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: rgb(17, 199, 108);
+    color: rgb(20, 197, 220);
     background: none;
 }
 
@@ -244,7 +244,7 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: rgb(20, 197, 220);
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -361,7 +361,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(208, 233, 119);
+    background: rgb(20, 197, 220);
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -546,13 +546,13 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: rgb(50, 224, 143);
+    background: #111;
     padding: 15px 23px;
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-align: center;
 }
 footer span a{
-    color: rgb(27, 199, 199);
+    color: rgb(9, 105, 117);
     text-decoration: none;
 }
 footer span a:hover{
@@ -562,12 +562,12 @@ footer span a:hover{
 /*Social Icons*/
 .fa-telegram{
     background: rgb(242, 249, 250);
-    color: rgb(28, 24, 207);
-    border: rgb(104, 198, 214);
+    color: rgb(67, 219, 230);
+    border: rgb(67, 219, 230);
     border-radius: 50px;
 }
 .fa-telegram:hover{
-    box-shadow: 0 0 8px 0 #0b1e86;
+    box-shadow: 0 0 8px 0 #19acb1;
 }
 .fa-twitter{
     background: rgb(58, 218, 240);
