@@ -168,6 +168,12 @@ section .title::after{
   display: inline-block;
 }
 
+.dropdown .menu-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -186,6 +192,24 @@ section .title::after{
   white-space: nowrap;
 }
 
+.dropdown:hover .down {
+  transform: rotate(-135deg);
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 0.1em;
+  margin-left: 0.1em;
+}
+
+.down {
+  transform: rotate(45deg);
+  transition: transform 0.25s;
+  transform-origin: center;
+}
 /* home section styling */
 .home{
     display: flex;
