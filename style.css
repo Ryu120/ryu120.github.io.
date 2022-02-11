@@ -1,4 +1,4 @@
-/*  import google fonts */
+                                  /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: rgb(24, 28, 29);
+    background: #111;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -739,5 +739,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-                                    
-  
+                                
