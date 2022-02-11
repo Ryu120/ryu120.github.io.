@@ -309,7 +309,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "My Skills";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -383,7 +383,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "Mates";
+    content: "Projects";
 }
 .teams .carousel .card{
     background: #222;
@@ -444,9 +444,10 @@ section .title::after{
     background: rgb(20, 197, 220)!important;
 }
 
+
 /* contact section styling */
 .contact .title::after{
-    content: "Will Help You";
+    content: "Get Help";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -472,13 +473,13 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: rgb(20, 197, 220);
+    color: rgb(0, 5, 5);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: rgb(136, 210, 245);
 }
 .contact .right form .fields{
     display: flex;
@@ -739,4 +740,4 @@ footer span a:hover{
     }
 }
                                     
-                                    
+  
