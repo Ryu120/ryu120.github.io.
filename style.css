@@ -63,7 +63,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #fff;
+    background: #111;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -71,11 +71,12 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: rgb(23, 24, 24);
+    color: rgb(20, 197, 220);
     padding: 0 5px;
-    background: #111;
+    background: rgb(247, 247, 247);
     transform: translateX(-50%);
 }
+
 
 /* navbar styling */
 .navbar{
