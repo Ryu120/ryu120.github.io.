@@ -112,7 +112,7 @@ main {
 }
 #button-form-actions button {
   margin-left: 1rem;
-  background: #e22121;
+  background: #2808df;
   padding: 0.25rem 1rem;
   border-radius: 0.5rem;
   color: #fff;
@@ -134,7 +134,7 @@ main {
 .buttoncode-success {
   border: 1px solid rgb(1, 5, 7);
   background: rgb(71, 190, 236);
-  color: rgb(37, 40, 224);
+  color: rgb(17, 209, 65);
   padding: 1em;
 }
 .buttoncode-error {
@@ -251,7 +251,7 @@ main {
     z-index: 5;
     text-transform: uppercase;
     text-align: center;
-    background: #e41919;
+    background: #2719e4;
     transform: translate3d(0, 0, 0);
   }
   .button-type label .button-type-switch {
