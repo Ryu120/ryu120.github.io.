@@ -63,7 +63,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #fff;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -73,7 +73,7 @@ section .title::after{
     font-size: 20px;
     color: rgb(20, 197, 220);
     padding: 0 5px;
-    background: rgb(247, 247, 247);
+    background: #111;
     transform: translateX(-50%);
 }
 
