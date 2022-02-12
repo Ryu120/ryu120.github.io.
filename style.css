@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color:rgb(35, 37, 37);
+    color: rgb(20, 197, 220);
     padding: 0 5px;
     background: #111;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(35, 37, 37);
+    background: rgb(20, 197, 220);
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(35, 37, 37);
+    color: rgb(20, 197, 220);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -139,12 +139,12 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(20, 17, 204);
+    background: rgb(20, 197, 220);
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: rgb(5, 0, 0);
+    color: #fff;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -161,7 +161,7 @@ section .title::after{
 }
 .scroll-up-btn:hover{
     filter: brightness(90%);
-    color: rgb(0, 0, 0);
+    color: rgb(235, 235, 235);
 }
 .dropdown {
   position: relative;
@@ -177,7 +177,7 @@ section .title::after{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(35, 37, 37);
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
@@ -211,17 +211,18 @@ section .title::after{
   transform-origin: center;
 }
 /* home section styling */
-
 .home{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 1.5em transparent solid;
-  outline: 1em solid #fff;
+    display: flex;
+    background: #111;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-  width: 50%;
+  width: 100%;
   display: flex;
 }
 .home .max-width .row{
@@ -231,15 +232,16 @@ section .title::after{
     font-size: 27px;
 }
 .home .home-content .text-2{
-  font-size: 40px;
-  margin: 5px 0;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(248, 43, 53);
+    color: rgb(20, 197, 220);
     font-weight: 500;
 }
 .home .home-content a{
