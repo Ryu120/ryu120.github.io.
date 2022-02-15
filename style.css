@@ -109,6 +109,11 @@ section .title::after{
 .navbar.sticky .logo a span{
     color: #fff;
 }
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -118,7 +123,6 @@ section .title::after{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li > a:hover{
