@@ -250,9 +250,8 @@ section .title::after{
     display: inline-block;
     background: rgb(20, 197, 220);
     color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
+    font-size: 22px;
+    padding: 8px 32px;
     font-weight: 300;
     border-radius: 6px;
     border: 2px solid rgb(20, 197, 220);
@@ -264,6 +263,11 @@ section .title::after{
 }
 .home .btn-list {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    position: relative;
+    top: 2em;
 }
 
 /* about section styling */
