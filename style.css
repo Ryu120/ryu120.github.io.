@@ -262,6 +262,9 @@ section .title::after{
     color: rgb(20, 197, 220);
     background: none;
 }
+.home .btn-list {
+    list-style-type: none;
+}
 
 /* about section styling */
 .about .title::after{
