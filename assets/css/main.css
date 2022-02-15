@@ -704,10 +704,25 @@ footer span a:hover {
     transform: scale(1.2);
 }
 /* responsive media query start */
+@media (max-width: 1366px) {
+    .home .home-bg-image {
+        top: 20%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .home .home-bg-image {
+        top: 5%;
+    }
+}
+
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
         width: 350px;
+    }
+    .home .home-bg-image {
+        top: -10%;
     }
 }
 
