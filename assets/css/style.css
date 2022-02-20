@@ -693,7 +693,7 @@ body {
     position: absolute;
   }
   .hero .overlay-itro {
-    background-color: rgba(255, 253, 253, 0.986);
+    background-image: url(assets/img/hero-bg.jpg) no-repeat center;
     position: absolute;
     top: 0;
     left: 0px;
