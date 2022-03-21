@@ -231,7 +231,7 @@ section .title::after {
     font-family: 'Ubuntu', sans-serif;
 }
 .home .home-bg-image {
-    background-image: url('../images/rose.png');
+    background-image: url();
     width: 24em;
     height: 25rem;
     position: absolute;
