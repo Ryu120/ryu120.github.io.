@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   background-color: #f5f5f5;
-  color: #4e4e4e;
+  color: #990404;
 }
 
 h1,
@@ -747,13 +747,13 @@ a:hover {
 }
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
+  color: #2df7b3;
 }
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #6f71742d;
 }
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #6f71742d;
 }
 .hero-single .breadcrumb a {
   color: #fff;
@@ -780,7 +780,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #070707;
 }
 .skill-mf .progress {
   background-color: #cde1f8;
@@ -1318,7 +1318,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #000000;
 }
 footer .copyright {
   margin-bottom: 0.3rem;
