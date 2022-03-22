@@ -55,7 +55,7 @@ a:hover {
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #080808;
 }
 
 .display-5 {
@@ -159,7 +159,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #060607;
   margin: 0 auto;
 }
 
