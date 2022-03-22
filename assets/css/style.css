@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #000000;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #1d1d1d;
+  color: #fffafa;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #ffffff;
 }
 
 .overlay-mf {
@@ -533,7 +533,7 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(8, 8, 8, 0.25);
   transition: 0.3s;
 }
 .navbar .dropdown ul li {
@@ -551,7 +551,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #0078ff;
+  color: #2023e2;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -685,7 +685,7 @@ a:hover {
 .hero {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: rgb(194, 194, 194);
   max-height: 45em;
 }
 .hero .hero-content {
@@ -703,7 +703,7 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 3rem;
 }
@@ -714,7 +714,7 @@ a:hover {
 }
 .hero .hero-subtitle {
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #000000;
   font-weight: 600;
 }
 .hero .hero-button-github {
@@ -783,14 +783,14 @@ a:hover {
   color: #070707;
 }
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #9c9ea0;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #36d87f;
 }
 
 /*--------------------------------------------------------------
@@ -830,7 +830,7 @@ a:hover {
   padding: 0.4rem 0;
 }
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -890,15 +890,15 @@ a:hover {
   font-size: 0.8rem;
 }
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #000000;
 }
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #000000;
   float: right;
 }
 .work-content .w-like a {
-  color: #0078ff;
+  color: #000000;
 }
 .work-content .w-like .num-like {
   font-size: 0.7rem;
@@ -929,7 +929,7 @@ a:hover {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0078ff;
+  border: 1px solid #000000;
 }
 .portfolio-details
   .portfolio-details-slider
