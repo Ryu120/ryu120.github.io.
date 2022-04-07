@@ -169,6 +169,7 @@ a:hover {
 }
 
 .title-left {
+  color: #000000;
   font-size: 2rem;
   position: relative;
 }

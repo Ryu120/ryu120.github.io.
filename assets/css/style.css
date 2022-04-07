@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .overlay-mf {
@@ -153,7 +153,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: #efefef;
 }
 
 .line-mf {
@@ -169,6 +169,7 @@ a:hover {
 }
 
 .title-left {
+  color: #000000;
   font-size: 2rem;
   position: relative;
 }
@@ -714,7 +715,7 @@ a:hover {
 }
 .hero .hero-subtitle {
   font-size: 1.5rem;
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
 }
 .hero .hero-button-github {
@@ -824,13 +825,14 @@ a:hover {
   font-size: 40px;
 }
 .service-box .s-title {
+  color: #000000;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
 }
 .service-box .s-description {
-  color: #ffffff;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
